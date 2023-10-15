@@ -1,10 +1,10 @@
-package org.spacehq.mc.protocol.packet.ingame.server.world;
+package com.github.steveice10.mc.protocol.packet.ingame.server.world;
 
-import org.spacehq.mc.protocol.data.game.values.world.map.MapData;
-import org.spacehq.mc.protocol.data.game.values.world.map.MapPlayer;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.values.world.map.MapData;
+import com.github.steveice10.mc.protocol.data.game.values.world.map.MapPlayer;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 

@@ -1,6 +1,6 @@
-package org.spacehq.mc.protocol.data.game.attribute;
+package com.github.steveice10.mc.protocol.data.game.attribute;
 
-import org.spacehq.mc.protocol.data.game.values.entity.AttributeType;
+import com.github.steveice10.mc.protocol.data.game.values.entity.AttributeType;
 
 import java.util.ArrayList;
 import java.util.List;

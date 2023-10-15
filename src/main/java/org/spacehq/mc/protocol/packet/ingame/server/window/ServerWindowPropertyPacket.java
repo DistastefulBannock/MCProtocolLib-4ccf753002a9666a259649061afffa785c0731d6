@@ -1,10 +1,10 @@
-package org.spacehq.mc.protocol.packet.ingame.server.window;
+package com.github.steveice10.mc.protocol.packet.ingame.server.window;
 
-import org.spacehq.mc.protocol.data.game.values.MagicValues;
-import org.spacehq.mc.protocol.data.game.values.window.property.WindowProperty;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.values.MagicValues;
+import com.github.steveice10.mc.protocol.data.game.values.window.property.WindowProperty;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 

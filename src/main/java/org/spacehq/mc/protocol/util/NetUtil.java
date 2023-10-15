@@ -1,18 +1,18 @@
-package org.spacehq.mc.protocol.util;
+package com.github.steveice10.mc.protocol.util;
 
-import org.spacehq.mc.protocol.data.game.Chunk;
-import org.spacehq.mc.protocol.data.game.EntityMetadata;
-import org.spacehq.mc.protocol.data.game.ItemStack;
-import org.spacehq.mc.protocol.data.game.NibbleArray3d;
-import org.spacehq.mc.protocol.data.game.Position;
-import org.spacehq.mc.protocol.data.game.Rotation;
-import org.spacehq.mc.protocol.data.game.ShortArray3d;
-import org.spacehq.mc.protocol.data.game.values.MagicValues;
-import org.spacehq.mc.protocol.data.game.values.entity.MetadataType;
-import org.spacehq.opennbt.NBTIO;
-import org.spacehq.opennbt.tag.builtin.CompoundTag;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
+import com.github.steveice10.mc.protocol.data.game.Chunk;
+import com.github.steveice10.mc.protocol.data.game.EntityMetadata;
+import com.github.steveice10.mc.protocol.data.game.ItemStack;
+import com.github.steveice10.mc.protocol.data.game.NibbleArray3d;
+import com.github.steveice10.mc.protocol.data.game.Position;
+import com.github.steveice10.mc.protocol.data.game.Rotation;
+import com.github.steveice10.mc.protocol.data.game.ShortArray3d;
+import com.github.steveice10.mc.protocol.data.game.values.MagicValues;
+import com.github.steveice10.mc.protocol.data.game.values.entity.MetadataType;
+import com.github.steveice10.opennbt.NBTIO;
+import com.github.steveice10.opennbt.tag.builtin.CompoundTag;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

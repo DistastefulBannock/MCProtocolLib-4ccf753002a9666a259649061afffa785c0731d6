@@ -1,6 +1,6 @@
-package org.spacehq.mc.protocol.data.status;
+package com.github.steveice10.mc.protocol.data.status;
 
-import org.spacehq.mc.auth.data.GameProfile;
+import com.github.steveice10.mc.auth.data.GameProfile;
 
 import java.util.Arrays;
 

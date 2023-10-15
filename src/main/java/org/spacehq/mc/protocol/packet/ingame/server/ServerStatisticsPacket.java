@@ -1,16 +1,16 @@
-package org.spacehq.mc.protocol.packet.ingame.server;
+package com.github.steveice10.mc.protocol.packet.ingame.server;
 
-import org.spacehq.mc.protocol.data.game.values.MagicValues;
-import org.spacehq.mc.protocol.data.game.values.statistic.Achievement;
-import org.spacehq.mc.protocol.data.game.values.statistic.BreakBlockStatistic;
-import org.spacehq.mc.protocol.data.game.values.statistic.BreakItemStatistic;
-import org.spacehq.mc.protocol.data.game.values.statistic.CraftItemStatistic;
-import org.spacehq.mc.protocol.data.game.values.statistic.GenericStatistic;
-import org.spacehq.mc.protocol.data.game.values.statistic.Statistic;
-import org.spacehq.mc.protocol.data.game.values.statistic.UseItemStatistic;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.values.MagicValues;
+import com.github.steveice10.mc.protocol.data.game.values.statistic.Achievement;
+import com.github.steveice10.mc.protocol.data.game.values.statistic.BreakBlockStatistic;
+import com.github.steveice10.mc.protocol.data.game.values.statistic.BreakItemStatistic;
+import com.github.steveice10.mc.protocol.data.game.values.statistic.CraftItemStatistic;
+import com.github.steveice10.mc.protocol.data.game.values.statistic.GenericStatistic;
+import com.github.steveice10.mc.protocol.data.game.values.statistic.Statistic;
+import com.github.steveice10.mc.protocol.data.game.values.statistic.UseItemStatistic;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 import java.util.HashMap;

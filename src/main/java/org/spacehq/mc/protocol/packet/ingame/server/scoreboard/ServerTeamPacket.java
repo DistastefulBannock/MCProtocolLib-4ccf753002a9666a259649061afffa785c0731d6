@@ -1,12 +1,12 @@
-package org.spacehq.mc.protocol.packet.ingame.server.scoreboard;
+package com.github.steveice10.mc.protocol.packet.ingame.server.scoreboard;
 
-import org.spacehq.mc.protocol.data.game.values.MagicValues;
-import org.spacehq.mc.protocol.data.game.values.scoreboard.NameTagVisibility;
-import org.spacehq.mc.protocol.data.game.values.scoreboard.TeamAction;
-import org.spacehq.mc.protocol.data.game.values.scoreboard.TeamColor;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.values.MagicValues;
+import com.github.steveice10.mc.protocol.data.game.values.scoreboard.NameTagVisibility;
+import com.github.steveice10.mc.protocol.data.game.values.scoreboard.TeamAction;
+import com.github.steveice10.mc.protocol.data.game.values.scoreboard.TeamColor;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 

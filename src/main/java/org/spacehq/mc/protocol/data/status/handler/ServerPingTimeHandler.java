@@ -1,6 +1,6 @@
-package org.spacehq.mc.protocol.data.status.handler;
+package com.github.steveice10.mc.protocol.data.status.handler;
 
-import org.spacehq.packetlib.Session;
+import com.github.steveice10.packetlib.Session;
 
 public interface ServerPingTimeHandler {
 

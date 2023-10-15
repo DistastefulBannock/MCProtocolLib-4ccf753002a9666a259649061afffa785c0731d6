@@ -1,4 +1,4 @@
-package org.spacehq.mc.protocol.data.game.values.world;
+package com.github.steveice10.mc.protocol.data.game.values.world;
 
 public enum WorldBorderAction {
     SET_SIZE,

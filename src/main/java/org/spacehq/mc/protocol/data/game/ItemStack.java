@@ -1,6 +1,6 @@
-package org.spacehq.mc.protocol.data.game;
+package com.github.steveice10.mc.protocol.data.game;
 
-import org.spacehq.opennbt.tag.builtin.CompoundTag;
+import com.github.steveice10.opennbt.tag.builtin.CompoundTag;
 
 public class ItemStack {
 

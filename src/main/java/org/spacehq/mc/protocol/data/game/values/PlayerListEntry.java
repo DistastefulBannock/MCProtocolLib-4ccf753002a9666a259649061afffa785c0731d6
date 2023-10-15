@@ -1,8 +1,8 @@
-package org.spacehq.mc.protocol.data.game.values;
+package com.github.steveice10.mc.protocol.data.game.values;
 
-import org.spacehq.mc.auth.data.GameProfile;
-import org.spacehq.mc.protocol.data.game.values.entity.player.GameMode;
-import org.spacehq.mc.protocol.data.message.Message;
+import com.github.steveice10.mc.auth.data.GameProfile;
+import com.github.steveice10.mc.protocol.data.game.values.entity.player.GameMode;
+import com.github.steveice10.mc.protocol.data.message.Message;
 
 public class PlayerListEntry {
     private GameProfile profile;

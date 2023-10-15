@@ -1,13 +1,13 @@
-package org.spacehq.mc.protocol.packet.ingame.server.entity;
+package com.github.steveice10.mc.protocol.packet.ingame.server.entity;
 
-import org.spacehq.mc.protocol.data.game.attribute.Attribute;
-import org.spacehq.mc.protocol.data.game.attribute.AttributeModifier;
-import org.spacehq.mc.protocol.data.game.values.MagicValues;
-import org.spacehq.mc.protocol.data.game.values.entity.AttributeType;
-import org.spacehq.mc.protocol.data.game.values.entity.ModifierOperation;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.attribute.Attribute;
+import com.github.steveice10.mc.protocol.data.game.attribute.AttributeModifier;
+import com.github.steveice10.mc.protocol.data.game.values.MagicValues;
+import com.github.steveice10.mc.protocol.data.game.values.entity.AttributeType;
+import com.github.steveice10.mc.protocol.data.game.values.entity.ModifierOperation;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 import java.util.ArrayList;

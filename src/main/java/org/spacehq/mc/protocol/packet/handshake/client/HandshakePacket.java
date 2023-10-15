@@ -1,10 +1,10 @@
-package org.spacehq.mc.protocol.packet.handshake.client;
+package com.github.steveice10.mc.protocol.packet.handshake.client;
 
-import org.spacehq.mc.protocol.data.game.values.HandshakeIntent;
-import org.spacehq.mc.protocol.data.game.values.MagicValues;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.values.HandshakeIntent;
+import com.github.steveice10.mc.protocol.data.game.values.MagicValues;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 

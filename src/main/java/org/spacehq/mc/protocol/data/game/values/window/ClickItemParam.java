@@ -1,4 +1,4 @@
-package org.spacehq.mc.protocol.data.game.values.window;
+package com.github.steveice10.mc.protocol.data.game.values.window;
 
 
 public enum ClickItemParam implements WindowActionParam {

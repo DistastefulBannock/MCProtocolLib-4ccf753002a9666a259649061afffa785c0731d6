@@ -1,4 +1,4 @@
-package org.spacehq.mc.protocol.data.status;
+package com.github.steveice10.mc.protocol.data.status;
 
 public class VersionInfo {
 

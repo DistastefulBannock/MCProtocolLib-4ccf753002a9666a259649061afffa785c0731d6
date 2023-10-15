@@ -1,4 +1,4 @@
-package org.spacehq.mc.protocol.packet.ingame.server.entity;
+package com.github.steveice10.mc.protocol.packet.ingame.server.entity;
 
 public class ServerEntityPositionPacket extends ServerEntityMovementPacket {
 

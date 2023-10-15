@@ -1,6 +1,6 @@
-package org.spacehq.mc.protocol;
+package com.github.steveice10.mc.protocol;
 
-import org.spacehq.packetlib.Session;
+import com.github.steveice10.packetlib.Session;
 
 public interface ServerLoginHandler {
 

@@ -1,9 +1,9 @@
-package org.spacehq.mc.protocol.packet.login.server;
+package com.github.steveice10.mc.protocol.packet.login.server;
 
-import org.spacehq.mc.auth.data.GameProfile;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.auth.data.GameProfile;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 

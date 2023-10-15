@@ -1,20 +1,20 @@
-package org.spacehq.mc.protocol.packet.ingame.server.world;
+package com.github.steveice10.mc.protocol.packet.ingame.server.world;
 
-import org.spacehq.mc.protocol.data.game.Position;
-import org.spacehq.mc.protocol.data.game.values.MagicValues;
-import org.spacehq.mc.protocol.data.game.values.world.effect.BreakBlockEffectData;
-import org.spacehq.mc.protocol.data.game.values.world.effect.BreakPotionEffectData;
-import org.spacehq.mc.protocol.data.game.values.world.effect.HardLandingEffectData;
-import org.spacehq.mc.protocol.data.game.values.world.effect.ParticleEffect;
-import org.spacehq.mc.protocol.data.game.values.world.effect.RecordEffectData;
-import org.spacehq.mc.protocol.data.game.values.world.effect.SmokeEffectData;
-import org.spacehq.mc.protocol.data.game.values.world.effect.SoundEffect;
-import org.spacehq.mc.protocol.data.game.values.world.effect.WorldEffect;
-import org.spacehq.mc.protocol.data.game.values.world.effect.WorldEffectData;
-import org.spacehq.mc.protocol.util.NetUtil;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.Position;
+import com.github.steveice10.mc.protocol.data.game.values.MagicValues;
+import com.github.steveice10.mc.protocol.data.game.values.world.effect.BreakBlockEffectData;
+import com.github.steveice10.mc.protocol.data.game.values.world.effect.BreakPotionEffectData;
+import com.github.steveice10.mc.protocol.data.game.values.world.effect.HardLandingEffectData;
+import com.github.steveice10.mc.protocol.data.game.values.world.effect.ParticleEffect;
+import com.github.steveice10.mc.protocol.data.game.values.world.effect.RecordEffectData;
+import com.github.steveice10.mc.protocol.data.game.values.world.effect.SmokeEffectData;
+import com.github.steveice10.mc.protocol.data.game.values.world.effect.SoundEffect;
+import com.github.steveice10.mc.protocol.data.game.values.world.effect.WorldEffect;
+import com.github.steveice10.mc.protocol.data.game.values.world.effect.WorldEffectData;
+import com.github.steveice10.mc.protocol.util.NetUtil;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 

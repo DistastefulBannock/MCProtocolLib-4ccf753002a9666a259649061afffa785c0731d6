@@ -1,20 +1,20 @@
-package org.spacehq.mc.protocol.packet.ingame.client.window;
+package com.github.steveice10.mc.protocol.packet.ingame.client.window;
 
-import org.spacehq.mc.protocol.data.game.ItemStack;
-import org.spacehq.mc.protocol.data.game.values.MagicValues;
-import org.spacehq.mc.protocol.data.game.values.window.ClickItemParam;
-import org.spacehq.mc.protocol.data.game.values.window.CreativeGrabParam;
-import org.spacehq.mc.protocol.data.game.values.window.DropItemParam;
-import org.spacehq.mc.protocol.data.game.values.window.FillStackParam;
-import org.spacehq.mc.protocol.data.game.values.window.MoveToHotbarParam;
-import org.spacehq.mc.protocol.data.game.values.window.ShiftClickItemParam;
-import org.spacehq.mc.protocol.data.game.values.window.SpreadItemParam;
-import org.spacehq.mc.protocol.data.game.values.window.WindowAction;
-import org.spacehq.mc.protocol.data.game.values.window.WindowActionParam;
-import org.spacehq.mc.protocol.util.NetUtil;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.ItemStack;
+import com.github.steveice10.mc.protocol.data.game.values.MagicValues;
+import com.github.steveice10.mc.protocol.data.game.values.window.ClickItemParam;
+import com.github.steveice10.mc.protocol.data.game.values.window.CreativeGrabParam;
+import com.github.steveice10.mc.protocol.data.game.values.window.DropItemParam;
+import com.github.steveice10.mc.protocol.data.game.values.window.FillStackParam;
+import com.github.steveice10.mc.protocol.data.game.values.window.MoveToHotbarParam;
+import com.github.steveice10.mc.protocol.data.game.values.window.ShiftClickItemParam;
+import com.github.steveice10.mc.protocol.data.game.values.window.SpreadItemParam;
+import com.github.steveice10.mc.protocol.data.game.values.window.WindowAction;
+import com.github.steveice10.mc.protocol.data.game.values.window.WindowActionParam;
+import com.github.steveice10.mc.protocol.util.NetUtil;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 

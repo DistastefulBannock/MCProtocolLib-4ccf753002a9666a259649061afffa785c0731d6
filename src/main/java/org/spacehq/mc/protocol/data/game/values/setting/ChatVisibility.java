@@ -1,4 +1,4 @@
-package org.spacehq.mc.protocol.data.game.values.setting;
+package com.github.steveice10.mc.protocol.data.game.values.setting;
 
 public enum ChatVisibility {
 

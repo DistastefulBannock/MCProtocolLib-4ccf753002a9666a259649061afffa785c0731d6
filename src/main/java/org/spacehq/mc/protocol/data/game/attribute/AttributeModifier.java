@@ -1,8 +1,8 @@
-package org.spacehq.mc.protocol.data.game.attribute;
+package com.github.steveice10.mc.protocol.data.game.attribute;
 
-import org.spacehq.mc.protocol.data.game.values.MagicValues;
-import org.spacehq.mc.protocol.data.game.values.entity.ModifierOperation;
-import org.spacehq.mc.protocol.data.game.values.entity.ModifierType;
+import com.github.steveice10.mc.protocol.data.game.values.MagicValues;
+import com.github.steveice10.mc.protocol.data.game.values.entity.ModifierOperation;
+import com.github.steveice10.mc.protocol.data.game.values.entity.ModifierType;
 
 import java.util.UUID;
 

@@ -1,16 +1,16 @@
-package org.spacehq.mc.protocol.packet.ingame.server.entity.spawn;
+package com.github.steveice10.mc.protocol.packet.ingame.server.entity.spawn;
 
-import org.spacehq.mc.protocol.data.game.values.MagicValues;
-import org.spacehq.mc.protocol.data.game.values.entity.FallingBlockData;
-import org.spacehq.mc.protocol.data.game.values.entity.HangingDirection;
-import org.spacehq.mc.protocol.data.game.values.entity.MinecartType;
-import org.spacehq.mc.protocol.data.game.values.entity.ObjectData;
-import org.spacehq.mc.protocol.data.game.values.entity.ObjectType;
-import org.spacehq.mc.protocol.data.game.values.entity.ProjectileData;
-import org.spacehq.mc.protocol.data.game.values.entity.SplashPotionData;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.values.MagicValues;
+import com.github.steveice10.mc.protocol.data.game.values.entity.FallingBlockData;
+import com.github.steveice10.mc.protocol.data.game.values.entity.HangingDirection;
+import com.github.steveice10.mc.protocol.data.game.values.entity.MinecartType;
+import com.github.steveice10.mc.protocol.data.game.values.entity.ObjectData;
+import com.github.steveice10.mc.protocol.data.game.values.entity.ObjectType;
+import com.github.steveice10.mc.protocol.data.game.values.entity.ProjectileData;
+import com.github.steveice10.mc.protocol.data.game.values.entity.SplashPotionData;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 

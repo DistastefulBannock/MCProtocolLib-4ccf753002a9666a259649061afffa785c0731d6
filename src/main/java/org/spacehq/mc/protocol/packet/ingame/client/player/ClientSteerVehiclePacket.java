@@ -1,8 +1,8 @@
-package org.spacehq.mc.protocol.packet.ingame.client.player;
+package com.github.steveice10.mc.protocol.packet.ingame.client.player;
 
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 

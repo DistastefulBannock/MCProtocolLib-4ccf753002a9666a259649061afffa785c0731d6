@@ -1,12 +1,12 @@
-package org.spacehq.mc.protocol.packet.ingame.server.world;
+package com.github.steveice10.mc.protocol.packet.ingame.server.world;
 
-import org.spacehq.mc.protocol.data.game.Chunk;
-import org.spacehq.mc.protocol.util.NetUtil;
-import org.spacehq.mc.protocol.util.NetworkChunkData;
-import org.spacehq.mc.protocol.util.ParsedChunkData;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.Chunk;
+import com.github.steveice10.mc.protocol.util.NetUtil;
+import com.github.steveice10.mc.protocol.util.NetworkChunkData;
+import com.github.steveice10.mc.protocol.util.ParsedChunkData;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 

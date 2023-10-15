@@ -1,6 +1,6 @@
-package org.spacehq.mc.protocol.util;
+package com.github.steveice10.mc.protocol.util;
 
-import org.spacehq.mc.protocol.data.game.Chunk;
+import com.github.steveice10.mc.protocol.data.game.Chunk;
 
 import java.util.Arrays;
 

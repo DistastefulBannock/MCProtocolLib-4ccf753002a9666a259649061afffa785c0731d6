@@ -1,6 +1,6 @@
-package org.spacehq.mc.protocol.data.game.values.world.block;
+package com.github.steveice10.mc.protocol.data.game.values.world.block;
 
-import org.spacehq.mc.protocol.data.game.Position;
+import com.github.steveice10.mc.protocol.data.game.Position;
 
 public class BlockChangeRecord {
 

@@ -1,4 +1,4 @@
-package org.spacehq.mc.protocol.data;
+package com.github.steveice10.mc.protocol.data;
 
 public enum SubProtocol {
     HANDSHAKE,

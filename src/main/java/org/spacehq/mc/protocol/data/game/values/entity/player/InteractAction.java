@@ -1,4 +1,4 @@
-package org.spacehq.mc.protocol.data.game.values.entity.player;
+package com.github.steveice10.mc.protocol.data.game.values.entity.player;
 
 public enum InteractAction {
 

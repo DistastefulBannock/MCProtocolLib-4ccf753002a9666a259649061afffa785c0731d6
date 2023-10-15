@@ -1,4 +1,4 @@
-package org.spacehq.mc.protocol.data.game.values.world.map;
+package com.github.steveice10.mc.protocol.data.game.values.world.map;
 
 import java.util.Arrays;
 

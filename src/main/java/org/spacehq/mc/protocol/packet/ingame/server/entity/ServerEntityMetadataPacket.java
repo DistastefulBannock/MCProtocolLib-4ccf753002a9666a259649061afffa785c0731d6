@@ -1,10 +1,10 @@
-package org.spacehq.mc.protocol.packet.ingame.server.entity;
+package com.github.steveice10.mc.protocol.packet.ingame.server.entity;
 
-import org.spacehq.mc.protocol.data.game.EntityMetadata;
-import org.spacehq.mc.protocol.util.NetUtil;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.EntityMetadata;
+import com.github.steveice10.mc.protocol.util.NetUtil;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 

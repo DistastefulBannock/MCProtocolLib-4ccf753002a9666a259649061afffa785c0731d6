@@ -1,4 +1,4 @@
-package org.spacehq.mc.protocol.data.message;
+package com.github.steveice10.mc.protocol.data.message;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package org.spacehq.mc.protocol.data.game;
+package com.github.steveice10.mc.protocol.data.game;
 
-import org.spacehq.mc.protocol.data.game.values.entity.MetadataType;
+import com.github.steveice10.mc.protocol.data.game.values.entity.MetadataType;
 
 public class EntityMetadata {
 

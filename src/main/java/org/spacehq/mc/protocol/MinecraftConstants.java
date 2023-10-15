@@ -1,4 +1,4 @@
-package org.spacehq.mc.protocol;
+package com.github.steveice10.mc.protocol;
 
 public class MinecraftConstants {
     // General Constants

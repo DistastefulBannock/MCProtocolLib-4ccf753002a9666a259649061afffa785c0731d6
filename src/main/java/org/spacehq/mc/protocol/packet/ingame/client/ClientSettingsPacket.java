@@ -1,11 +1,11 @@
-package org.spacehq.mc.protocol.packet.ingame.client;
+package com.github.steveice10.mc.protocol.packet.ingame.client;
 
-import org.spacehq.mc.protocol.data.game.values.MagicValues;
-import org.spacehq.mc.protocol.data.game.values.setting.ChatVisibility;
-import org.spacehq.mc.protocol.data.game.values.setting.SkinPart;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.values.MagicValues;
+import com.github.steveice10.mc.protocol.data.game.values.setting.ChatVisibility;
+import com.github.steveice10.mc.protocol.data.game.values.setting.SkinPart;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,18 +1,18 @@
-package org.spacehq.mc.protocol.packet.status.server;
+package com.github.steveice10.mc.protocol.packet.status.server;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import org.spacehq.mc.auth.data.GameProfile;
-import org.spacehq.mc.auth.util.Base64;
-import org.spacehq.mc.protocol.data.message.Message;
-import org.spacehq.mc.protocol.data.status.PlayerInfo;
-import org.spacehq.mc.protocol.data.status.ServerStatusInfo;
-import org.spacehq.mc.protocol.data.status.VersionInfo;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.auth.data.GameProfile;
+import com.github.steveice10.mc.auth.util.Base64;
+import com.github.steveice10.mc.protocol.data.message.Message;
+import com.github.steveice10.mc.protocol.data.status.PlayerInfo;
+import com.github.steveice10.mc.protocol.data.status.ServerStatusInfo;
+import com.github.steveice10.mc.protocol.data.status.VersionInfo;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;

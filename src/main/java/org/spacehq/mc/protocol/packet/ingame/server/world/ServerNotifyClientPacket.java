@@ -1,15 +1,15 @@
-package org.spacehq.mc.protocol.packet.ingame.server.world;
+package com.github.steveice10.mc.protocol.packet.ingame.server.world;
 
-import org.spacehq.mc.protocol.data.game.values.MagicValues;
-import org.spacehq.mc.protocol.data.game.values.entity.player.GameMode;
-import org.spacehq.mc.protocol.data.game.values.world.notify.ClientNotification;
-import org.spacehq.mc.protocol.data.game.values.world.notify.ClientNotificationValue;
-import org.spacehq.mc.protocol.data.game.values.world.notify.DemoMessageValue;
-import org.spacehq.mc.protocol.data.game.values.world.notify.RainStrengthValue;
-import org.spacehq.mc.protocol.data.game.values.world.notify.ThunderStrengthValue;
-import org.spacehq.packetlib.io.NetInput;
-import org.spacehq.packetlib.io.NetOutput;
-import org.spacehq.packetlib.packet.Packet;
+import com.github.steveice10.mc.protocol.data.game.values.MagicValues;
+import com.github.steveice10.mc.protocol.data.game.values.entity.player.GameMode;
+import com.github.steveice10.mc.protocol.data.game.values.world.notify.ClientNotification;
+import com.github.steveice10.mc.protocol.data.game.values.world.notify.ClientNotificationValue;
+import com.github.steveice10.mc.protocol.data.game.values.world.notify.DemoMessageValue;
+import com.github.steveice10.mc.protocol.data.game.values.world.notify.RainStrengthValue;
+import com.github.steveice10.mc.protocol.data.game.values.world.notify.ThunderStrengthValue;
+import com.github.steveice10.packetlib.io.NetInput;
+import com.github.steveice10.packetlib.io.NetOutput;
+import com.github.steveice10.packetlib.packet.Packet;
 
 import java.io.IOException;
 

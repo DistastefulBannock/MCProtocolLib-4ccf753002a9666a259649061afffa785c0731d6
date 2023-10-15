@@ -1,6 +1,6 @@
-package org.spacehq.mc.protocol.data.game.values.entity.player;
+package com.github.steveice10.mc.protocol.data.game.values.entity.player;
 
-import org.spacehq.mc.protocol.data.game.values.world.notify.ClientNotificationValue;
+import com.github.steveice10.mc.protocol.data.game.values.world.notify.ClientNotificationValue;
 
 public enum GameMode implements ClientNotificationValue {
 

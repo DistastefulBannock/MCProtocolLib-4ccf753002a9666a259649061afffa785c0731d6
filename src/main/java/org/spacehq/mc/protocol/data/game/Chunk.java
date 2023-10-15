@@ -1,4 +1,4 @@
-package org.spacehq.mc.protocol.data.game;
+package com.github.steveice10.mc.protocol.data.game;
 
 public class Chunk {
 

@@ -1,4 +1,4 @@
-package org.spacehq.mc.protocol.data.game.values.world.block;
+package com.github.steveice10.mc.protocol.data.game.values.world.block;
 
 public class ExplodedBlockRecord {
 
