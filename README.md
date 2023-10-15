@@ -23,18 +23,16 @@ MCProtocolLib is licensed under the **[MIT license](http://www.opensource.org/li
 
 # Add to your project
 ```xml
-        <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
 ```
 ```xml
-        <dependency>
-	    <groupId>com.github.DistastefulBannock</groupId>
-	    <artifactId>MCProtocolLib-4ccf753002a9666a259649061afffa785c0731d6</artifactId>
-	    <version>19913f2cf1</version>
-	</dependency>
+<dependency>
+    <groupId>com.github.DistastefulBannock</groupId>
+    <artifactId>MCProtocolLib-4ccf753002a9666a259649061afffa785c0731d6</artifactId>
+    <version>19913f2cf1</version>
+</dependency>
 ```
 
