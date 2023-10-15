@@ -14,6 +14,7 @@ import com.github.steveice10.opennbt.tag.builtin.CompoundTag;
 import com.github.steveice10.packetlib.io.NetInput;
 import com.github.steveice10.packetlib.io.NetOutput;
 
+import java.io.DataInput;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -66,7 +67,7 @@ public class NetUtil {
         if(b == 0) {
             return null;
         } else {
-            return (CompoundTag) NBTIO.readTag(new DataInputStream(new NetInputStream(in, b)));
+            return (CompoundTag) NBTIO.<DataInput>readTag(new DataInputStream(new NetInputStream(in, b)));
         }
     }
 
@@ -74,7 +75,7 @@ public class NetUtil {
         if(tag == null) {
             out.writeByte(0);
         } else {
-            NBTIO.writeTag(new DataOutputStream(new NetOutputStream(out)), tag);
+            NBTIO.<DataInput>writeTag(new DataOutputStream(new NetOutputStream(out)), tag);
         }
     }
 
