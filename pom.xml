@@ -58,7 +58,7 @@
         </dependency>
         <dependency>
             <groupId>com.github.GeyserMC</groupId>
-            <artifactId>PacketLib</artifactId>
+            <artifactId>MCAuthLib</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>
