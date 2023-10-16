@@ -47,16 +47,11 @@ public class ClientListener extends SessionAdapter {
                 EncryptionRequestPacket packet = event.getPacket();
                 this.key = CryptUtil.generateSharedKey();
 
-                Proxy proxy = event.getSession().<Proxy>getFlag(MinecraftConstants.AUTH_PROXY_KEY);
-                if(proxy == null) {
-                    proxy = Proxy.NO_PROXY;
-                }
-
                 GameProfile profile = event.getSession().getFlag(MinecraftConstants.PROFILE_KEY);
                 String serverHash = new BigInteger(CryptUtil.getServerIdHash(packet.getServerId(), packet.getPublicKey(), this.key)).toString(16);
                 String accessToken = event.getSession().getFlag(MinecraftConstants.ACCESS_TOKEN_KEY);
                 try {
-                    new SessionService(proxy).joinServer(profile, accessToken, serverHash);
+                    new SessionService().joinServer(profile, accessToken, serverHash);
                 } catch(ServiceUnavailableException e) {
                     event.getSession().disconnect("Login failed: Authentication service unavailable.", e);
                     return;

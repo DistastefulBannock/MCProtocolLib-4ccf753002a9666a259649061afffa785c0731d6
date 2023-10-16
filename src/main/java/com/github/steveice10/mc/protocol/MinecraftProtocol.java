@@ -3,6 +3,7 @@ package com.github.steveice10.mc.protocol;
 import com.github.steveice10.mc.auth.data.GameProfile;
 import com.github.steveice10.mc.auth.service.AuthenticationService;
 import com.github.steveice10.mc.auth.exception.request.RequestException;
+import com.github.steveice10.mc.auth.service.MsaAuthenticationService;
 import com.github.steveice10.mc.protocol.data.SubProtocol;
 import com.github.steveice10.mc.protocol.packet.handshake.client.HandshakePacket;
 import com.github.steveice10.mc.protocol.packet.ingame.client.ClientChatPacket;
@@ -156,23 +157,38 @@ public class MinecraftProtocol extends PacketProtocol {
         this.clientListener = new ClientListener();
     }
 
+    /**
+     * Create a new MinecraftProtocol instance with an offline profile.
+     * @param username The username for the offline user
+     */
     public MinecraftProtocol(String username) {
         this(SubProtocol.LOGIN);
         this.profile = new GameProfile((UUID) null, username);
     }
 
-    public MinecraftProtocol(String username, String password) throws RequestException {
-        this(username, password, false);
+    /**
+     * Create a new MinecraftProtocol instance with an online profile.
+     * @param clientId The azure client ID to use for authentication
+     * @param username The username for the online user
+     * @param password The password for the online user
+     * @throws RequestException If an error occurs while authenticating
+     */
+    public MinecraftProtocol(String clientId, String username, String password) throws RequestException {
+        this(clientId, username, password, false);
     }
 
-    public MinecraftProtocol(String username, String using, boolean token) throws RequestException {
-        this(username, using, token, Proxy.NO_PROXY);
-    }
-
-    public MinecraftProtocol(String username, String using, boolean token, Proxy authProxy) throws RequestException {
+    /**
+     * Create a new MinecraftProtocol instance with an online profile.
+     * @param clientId The azure client ID to use for authentication
+     * @param username The username for the online user
+     * @param using The access token or password for the online user
+     * @param token Whether or not the given using string is an access token
+     * @throws RequestException If an error occurs while authenticating
+     */
+    public MinecraftProtocol(String clientId, String username, String using, boolean token) throws RequestException {
         this(SubProtocol.LOGIN);
         String clientToken = UUID.randomUUID().toString();
-        AuthenticationService auth = new AuthenticationService(clientToken, authProxy);
+        MsaAuthenticationService auth = new MsaAuthenticationService(clientId);
         auth.setUsername(username);
         if(token) {
             auth.setAccessToken(using);
@@ -185,6 +201,12 @@ public class MinecraftProtocol extends PacketProtocol {
         this.accessToken = auth.getAccessToken();
     }
 
+    /**
+     * Creates a new MinecraftProtocol instance with your own gameprofile and accesstoken.
+     * Good for custom auth implementations.
+     * @param profile The gameProfile to use
+     * @param accessToken The accessToken to use
+     */
     public MinecraftProtocol(GameProfile profile, String accessToken) {
         this(SubProtocol.LOGIN);
         this.profile = profile;
