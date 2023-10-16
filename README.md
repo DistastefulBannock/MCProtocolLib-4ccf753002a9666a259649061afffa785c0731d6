@@ -9,7 +9,7 @@ Neither me or the original developers will offer support for this version.
 Check out the original repo: https://github.com/GeyserMC/MCAuthLib
 
 ## Example Code
-See example/com/github/steveice10/mc/protocol/test 
+See example/com/github/steveice10/mc/protocol/test
 
 ## Building the Source
 MCProtocolLib uses Maven to manage dependencies. Simply run 'mvn clean install' in the source's directory.
