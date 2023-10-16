@@ -6,7 +6,7 @@ This is a fork of the last 1.8.8 commit I was able to find. I've updated some of
 
 Neither me or the original developers will offer support for this version. 
 
-Check out the original repo: https://github.com/GeyserMC/MCAuthLib
+Check out the original repo: https://github.com/GeyserMC/MCProtocolLib
 
 ## Example Code
 See example/com/github/steveice10/mc/protocol/test
